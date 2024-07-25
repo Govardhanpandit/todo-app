@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+padding: 0;
+
+}
+
+body{
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  height: 100vh;
+  
+  background-color: rgb(15, 23, 31);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+#input-container{
+  display: flex;
+}
+#inputValue{
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+button{
+  height: 35px;
+  border-radius: 15px;
+cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  color: red;
+  background-color: yellow;
+  padding: 10px 20px;
+  border: none;
+}
+#heading{
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 50px;
+  font-family: "Teko", sans-serif;
+letter-spacing: 3px;
+}
+#container{
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.main_todo_list{
+  display: flex;
+  align-items: center;
+margin-top: 15px;
+justify-content: space-between;
+max-width: 320px;
+
+}
+li{
+  color: aliceblue;
+  font-size: 25px;
+  margin-right: 10px;
+  font-family: "Playwrite AR", cursive;
+  list-style-type: "✅";
+  
+}
+button:hover{
+  background-color: black;
+  color: rgb(255, 234, 0);
+}
+#inputBtn{
+  background-color: red;
+  color: rgb(255, 255, 255);
+}
+#inputBtn:hover{
+  background-color: black;
+  color: yellow;
+}
+li:hover{
+  color: rgb(254, 204, 0);
+}
